@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Form Validation</title>
+        <link rel="stylesheet" href="/Lab3/style.css">
+        <script rel="stylesheet" src="/Lab3/index.js"></script>
+        
+
+    </head>
+
+    <body>
+        <div  class="container">
+            <form onsubmit= "return validate()" id="form">
+                <h1>Registration</h1>
+                <div class="input-control">
+                <label for="username">Username</label>
+                <input id="username" name="username" type="text">
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control">
+                <label for="password">Password</label>
+                <input id="password1" name="password1" type="password">
+                <div class="error"></div>
+            </div>
+            <button type="submit">Submit</button>
+
+               
+
+
+            </form>
+        </div>
+       
+
+    </body>
+    
+</html>
